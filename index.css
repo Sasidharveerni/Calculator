@@ -1,0 +1,90 @@
+body {
+    background-color: #3B4664;
+    color: #fff;
+}
+
+.parent {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.child-1 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center; /* Vertically center content */
+    font-size: 2.5em; /* Increase text size */
+    width: 400px;
+    height: 70px;
+    background-color: #181F32; 
+    color: #fff; /* Text color */
+    padding-right: 30px; /* Add some padding on the right */
+}
+
+.child-2 {
+    width: 400px;
+    height: 300px;
+    background-color: #252D44;
+}
+
+.first-row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.second-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.third-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.forth-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.fifth-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    color: #3B4664;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+
+.btn:hover {
+    background-color: #fff; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Soft shadow for a "lifted" effect */
+}
+
+#del {
+    background-color: #55688A;
+    color: #fff;
+}
+
+#equal {
+    color: #fff;
+}
