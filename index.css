@@ -88,3 +88,8 @@ button {
 #equal {
     color: #fff;
 }
+
+h2{
+    position: relative;
+    right: 175px
+}
